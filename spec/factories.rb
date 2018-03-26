@@ -33,3 +33,4 @@ FactoryBot.define do
     auto_text_content "I believe in a thing called love"
   end
 end
+
