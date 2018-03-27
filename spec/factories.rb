@@ -20,7 +20,7 @@ FactoryBot.define do
 
   factory :event do
     name "woke up"
-    sequence :lead_id
+    lead_id 444
   end
 
   factory :outreach do
