@@ -6,16 +6,16 @@ language: ruby
 rvm:
   - 2.5.0
 before_install: gem install bundler -v 1.16.1
+services:
+- postgresql
 notifications:
   - false
 before_script:
   - curl -L https://codeclimate.com/downloads/test-reporter/test-reporter-latest-linux-amd64 > ./cc-test-reporter
   - chmod +x ./cc-test-reporter
   - ./cc-test-reporter before-build
-  - psql -c 'create database travis_ci_test;' -U postgres
+  - psql -c 'create database crm_api_testing_test;' -U postgres
 scripts:
   - bundle exec rspec spec
 after_script:
   - ./cc-test-reporter after-build --exit-code $TRAVIS_TEST_RESULT
-services:
-- postgresql
