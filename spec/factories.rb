@@ -18,15 +18,16 @@ FactoryBot.define do
     zip "60615"
   end
 
+  factory :outreach do
+    text "rgsrug"
+    sequence :lead_id 
+  end
+
   factory :event do
     name "woke up"
     lead
   end
 
-  factory :outreach do
-    text "rgsrug"
-    sequence :lead_id 
-  end
 
   factory :setting do
     sequence :admin_id 
