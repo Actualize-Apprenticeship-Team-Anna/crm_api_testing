@@ -18,7 +18,11 @@ require 'simplecov'
 require 'simplecov-console'
 SimpleCov.formatter = SimpleCov.formatter = SimpleCov::Formatter::Console
 SimpleCov.start do
-  add_filter '.'
+  add_filter 'app'
+  add_filter 'spec/model'
+  add_filter 'spec/support'
+  
+
 end
 RSpec.configure do |config|
 
