@@ -8,4 +8,17 @@ RSpec.describe Lead, :type => :model do
   it "is valid from the baseline factory" do
     expect(@lead1).to be_valid
   end
+
+  it "has a full name" do
+    expect(@lead1).to respond_to(:full_name)
+  end
+
+  it "email has @" do
+    expect(@lead1.email).to include("@")
+  end
+
+  it "phone is accurate" do
+    expect(@lead1.phone.length).to eql(10) 
+  end
 end
+
