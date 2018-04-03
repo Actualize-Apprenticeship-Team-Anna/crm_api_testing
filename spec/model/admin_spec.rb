@@ -13,4 +13,8 @@ RSpec.describe Admin, :type => :model do
     expect{ create(:admin, email: "5")}.to raise_error (ActiveRecord::RecordInvalid)
   end
 
+  it "is invalid with invalid without @ in email" do
+    expect{ create(:admin, email: "email.com")}.to raise_error (ActiveRecord::RecordInvalid)
+  end
+
 end
