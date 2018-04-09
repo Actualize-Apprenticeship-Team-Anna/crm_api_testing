@@ -527,12 +527,17 @@
   },
   "RSpec": {
     "coverage": {
+<<<<<<< HEAD
       "/Users/kevin/Actualize/crm_api_testing/spec/model/admin_spec.rb": [
         1,
+=======
+      "/Users/krammdcclxxii/Actualize/crm_api_testing/spec/rails_helper.rb": [
+>>>>>>> 02dc32c8fdec670d5d96dc2fa52cc3317d3e253e
         null,
         1,
         1,
         1,
+<<<<<<< HEAD
         null,
         null,
         1,
@@ -547,6 +552,8 @@
         1,
         null,
         1,
+=======
+>>>>>>> 02dc32c8fdec670d5d96dc2fa52cc3317d3e253e
         1,
         null,
         1,
@@ -602,6 +609,7 @@
         null,
         null
       ],
+<<<<<<< HEAD
       "/Users/kevin/Actualize/crm_api_testing/spec/support/factory_bot.rb": [
         null,
         1,
@@ -612,12 +620,16 @@
         null
       ],
       "/Users/kevin/Actualize/crm_api_testing/config/environment.rb": [
+=======
+      "/Users/krammdcclxxii/Actualize/crm_api_testing/config/environment.rb": [
+>>>>>>> 02dc32c8fdec670d5d96dc2fa52cc3317d3e253e
         null,
         1,
         null,
         null,
         1
       ],
+<<<<<<< HEAD
       "/Users/kevin/Actualize/crm_api_testing/config/application.rb": [
         1,
         null,
@@ -639,11 +651,18 @@
         null
       ],
       "/Users/kevin/Actualize/crm_api_testing/config/boot.rb": [
+=======
+      "/Users/krammdcclxxii/Actualize/crm_api_testing/config/boot.rb": [
+>>>>>>> 02dc32c8fdec670d5d96dc2fa52cc3317d3e253e
         1,
         null,
         1
       ],
+<<<<<<< HEAD
       "/Users/kevin/Actualize/crm_api_testing/config/environments/test.rb": [
+=======
+      "/Users/krammdcclxxii/Actualize/crm_api_testing/config/environments/test.rb": [
+>>>>>>> 02dc32c8fdec670d5d96dc2fa52cc3317d3e253e
         1,
         null,
         null,
@@ -687,6 +706,7 @@
         null,
         null
       ],
+<<<<<<< HEAD
       "/Users/kevin/Actualize/crm_api_testing/config/initializers/application_controller_renderer.rb": [
         null,
         null,
@@ -696,6 +716,9 @@
         null
       ],
       "/Users/kevin/Actualize/crm_api_testing/config/initializers/assets.rb": [
+=======
+      "/Users/krammdcclxxii/Actualize/crm_api_testing/config/initializers/assets.rb": [
+>>>>>>> 02dc32c8fdec670d5d96dc2fa52cc3317d3e253e
         null,
         null,
         null,
@@ -708,7 +731,11 @@
         null,
         null
       ],
+<<<<<<< HEAD
       "/Users/kevin/Actualize/crm_api_testing/config/initializers/backtrace_silencers.rb": [
+=======
+      "/Users/krammdcclxxii/Actualize/crm_api_testing/config/initializers/backtrace_silencers.rb": [
+>>>>>>> 02dc32c8fdec670d5d96dc2fa52cc3317d3e253e
         null,
         null,
         null,
@@ -717,14 +744,22 @@
         null,
         null
       ],
+<<<<<<< HEAD
       "/Users/kevin/Actualize/crm_api_testing/config/initializers/cookies_serializer.rb": [
+=======
+      "/Users/krammdcclxxii/Actualize/crm_api_testing/config/initializers/cookies_serializer.rb": [
+>>>>>>> 02dc32c8fdec670d5d96dc2fa52cc3317d3e253e
         null,
         null,
         null,
         null,
         1
       ],
+<<<<<<< HEAD
       "/Users/kevin/Actualize/crm_api_testing/config/initializers/devise.rb": [
+=======
+      "/Users/krammdcclxxii/Actualize/crm_api_testing/config/initializers/devise.rb": [
+>>>>>>> 02dc32c8fdec670d5d96dc2fa52cc3317d3e253e
         null,
         null,
         1,
@@ -1000,13 +1035,21 @@
         null,
         null
       ],
+<<<<<<< HEAD
       "/Users/kevin/Actualize/crm_api_testing/config/initializers/filter_parameter_logging.rb": [
+=======
+      "/Users/krammdcclxxii/Actualize/crm_api_testing/config/initializers/filter_parameter_logging.rb": [
+>>>>>>> 02dc32c8fdec670d5d96dc2fa52cc3317d3e253e
         null,
         null,
         null,
         1
       ],
+<<<<<<< HEAD
       "/Users/kevin/Actualize/crm_api_testing/config/initializers/inflections.rb": [
+=======
+      "/Users/krammdcclxxii/Actualize/crm_api_testing/config/initializers/inflections.rb": [
+>>>>>>> 02dc32c8fdec670d5d96dc2fa52cc3317d3e253e
         null,
         null,
         null,
@@ -1024,13 +1067,21 @@
         null,
         null
       ],
+<<<<<<< HEAD
       "/Users/kevin/Actualize/crm_api_testing/config/initializers/mime_types.rb": [
+=======
+      "/Users/krammdcclxxii/Actualize/crm_api_testing/config/initializers/mime_types.rb": [
+>>>>>>> 02dc32c8fdec670d5d96dc2fa52cc3317d3e253e
         null,
         null,
         null,
         null
       ],
+<<<<<<< HEAD
       "/Users/kevin/Actualize/crm_api_testing/config/initializers/new_framework_defaults.rb": [
+=======
+      "/Users/krammdcclxxii/Actualize/crm_api_testing/config/initializers/new_framework_defaults.rb": [
+>>>>>>> 02dc32c8fdec670d5d96dc2fa52cc3317d3e253e
         null,
         null,
         null,
@@ -1056,18 +1107,30 @@
         null,
         1
       ],
+<<<<<<< HEAD
       "/Users/kevin/Actualize/crm_api_testing/config/initializers/session_store.rb": [
+=======
+      "/Users/krammdcclxxii/Actualize/crm_api_testing/config/initializers/session_store.rb": [
+>>>>>>> 02dc32c8fdec670d5d96dc2fa52cc3317d3e253e
         null,
         null,
         1
       ],
+<<<<<<< HEAD
       "/Users/kevin/Actualize/crm_api_testing/config/initializers/twilio.rb": [
+=======
+      "/Users/krammdcclxxii/Actualize/crm_api_testing/config/initializers/twilio.rb": [
+>>>>>>> 02dc32c8fdec670d5d96dc2fa52cc3317d3e253e
         1,
         1,
         1,
         null
       ],
+<<<<<<< HEAD
       "/Users/kevin/Actualize/crm_api_testing/config/initializers/wrap_parameters.rb": [
+=======
+      "/Users/krammdcclxxii/Actualize/crm_api_testing/config/initializers/wrap_parameters.rb": [
+>>>>>>> 02dc32c8fdec670d5d96dc2fa52cc3317d3e253e
         null,
         null,
         null,
@@ -1083,6 +1146,7 @@
         null,
         null
       ],
+<<<<<<< HEAD
       "/Users/kevin/Actualize/crm_api_testing/spec/factories.rb": [
         1,
         null,
@@ -1109,6 +1173,14 @@
         1,
         null,
         null,
+=======
+      "/Users/krammdcclxxii/Actualize/crm_api_testing/spec/factories.rb": [
+        1,
+        null,
+        null,
+        1,
+        1,
+>>>>>>> 02dc32c8fdec670d5d96dc2fa52cc3317d3e253e
         1,
         1,
         1,
@@ -1117,6 +1189,7 @@
         1,
         1,
         1,
+<<<<<<< HEAD
         null,
         null,
         null
@@ -1129,10 +1202,13 @@
         null,
         1,
         1,
+=======
+>>>>>>> 02dc32c8fdec670d5d96dc2fa52cc3317d3e253e
         1,
         1,
         1,
         1,
+<<<<<<< HEAD
         null,
         1,
         null,
@@ -1218,6 +1294,16 @@
       ],
       "/Users/kevin/Actualize/crm_api_testing/spec/model/event_spec.rb": [
         1,
+=======
+        1,
+        1,
+        null,
+        null,
+        1,
+        1,
+        1,
+        null,
+>>>>>>> 02dc32c8fdec670d5d96dc2fa52cc3317d3e253e
         null,
         1,
         1,
@@ -1226,6 +1312,7 @@
         null,
         1,
         1,
+<<<<<<< HEAD
         null,
         null
       ],
@@ -1249,12 +1336,22 @@
       ],
       "/Users/kevin/Actualize/crm_api_testing/app/models/lead.rb": [
         1,
+=======
+        1,
+        null,
+        null,
+        null,
+        null
+      ],
+      "/Users/krammdcclxxii/Actualize/crm_api_testing/config/routes.rb": [
+>>>>>>> 02dc32c8fdec670d5d96dc2fa52cc3317d3e253e
         1,
         1,
         null,
         1,
         null,
         1,
+<<<<<<< HEAD
         null,
         null,
         null,
@@ -1321,11 +1418,33 @@
         null
       ],
       "/Users/kevin/Actualize/crm_api_testing/spec/model/outreach_spec.rb": [
+=======
+        1,
+        1,
+        1,
+        1,
+        1,
+        null,
+        1,
+        null,
+        null,
+        1,
+        null,
+        1,
+        null,
+        1,
+        null,
+        1,
+        1,
+        null,
+        1,
+>>>>>>> 02dc32c8fdec670d5d96dc2fa52cc3317d3e253e
         1,
         null,
         1,
         1,
         1,
+<<<<<<< HEAD
         null,
         null,
         1,
@@ -1360,5 +1479,16 @@
       ]
     },
     "timestamp": 1522712281
+=======
+        1,
+        1,
+        null,
+        null,
+        null,
+        null
+      ]
+    },
+    "timestamp": 1522713928
+>>>>>>> 02dc32c8fdec670d5d96dc2fa52cc3317d3e253e
   }
 }

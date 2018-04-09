@@ -1,4 +1,5 @@
 FactoryBot.define do
+
   
   factory :admin do
     first_name "Joe"
@@ -33,4 +34,5 @@ FactoryBot.define do
     auto_text_content "I believe in a thing called love"
   end
 end
+
 
