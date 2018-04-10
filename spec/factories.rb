@@ -1,5 +1,5 @@
-require 'database_cleaner'
-DatabaseCleaner.strategy = :truncation
+# require 'database_cleaner'
+# DatabaseCleaner.strategy = :truncation
 FactoryBot.define do
 
   
@@ -40,4 +40,5 @@ FactoryBot.define do
   end
 end
 
-DatabaseCleaner.clean
+# DatabaseCleaner.clean
+# 
