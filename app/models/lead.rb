@@ -10,7 +10,16 @@ class Lead < ApplicationRecord
   # based on which lead is most likely to lead to a successful call. This algorithm
   # may change based on which call converter is calling.
   def self.next(admin_email=nil)
-    return Lead.joins(:events).where(old_lead: false).where(exclude_from_calling: false).where(contacted: false).where(bad_number: false).where('enrolled_date is null').where("phone <> ''").where("events.name = 'Started Application'").order(:updated_at).last
+    Lead.joins(:events)
+      .where("events.name = 'Started Application'")
+      .where(old_lead: false)
+      .where(exclude_from_calling: false)
+      .where(contacted: false)
+      .where(bad_number: false)
+      .where('enrolled_date is null')
+      .where("phone <> ''")
+      .order(:updated_at)
+      .last
   end
 
   # Send an automated text to a lead:
