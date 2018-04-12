@@ -2,10 +2,22 @@ require 'rails_helper'
 
 RSpec.describe Lead, :type => :model do
   before(:all) do
-    @lead1 = create(:lead)
+    @lead1 = build(:lead)
   end
-
   it "is valid from the baseline factory" do
     expect(@lead1).to be_valid
   end
+
+  it "has a full name" do
+    expect(@lead1).to respond_to(:full_name)
+  end
+
+  it "email has @" do
+    expect(@lead1.email).to include("@")
+  end
+
+  it "phone is accurate" do
+    expect(@lead1.phone.length).to eql(10) 
+  end
 end
+
