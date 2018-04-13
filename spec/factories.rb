@@ -6,7 +6,6 @@ FactoryBot.define do
   factory :admin do
     first_name "Joe"
     last_name "Johnson"
-    # email "jj@email.com"
     sequence :email do |n|
       "email#{n}@email.com"
     end
@@ -31,11 +30,11 @@ FactoryBot.define do
 
   factory :outreach do
     text "rgsrug"
-    sequence :lead_id 
+    lead
   end
 
   factory :setting do
-    sequence :admin_id 
+    admin 
     auto_text_content "I believe in a thing called love"
   end
 end
