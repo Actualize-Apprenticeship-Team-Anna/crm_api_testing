@@ -2,8 +2,8 @@ require 'rails_helper'
 
 RSpec.describe Admin, :type => :model do
   before(:all) do
-    @admin1 = build(:admin)
-    @lead1 = build(:lead)
+    @admin1 = create(:admin)
+    @lead1 = create(:lead)
   end
 
   it "is valid with valid attributes" do
@@ -11,11 +11,11 @@ RSpec.describe Admin, :type => :model do
   end
 
   it "is invalid with invalid attributes" do
-    expect{ build(:admin, email: "5")}.to raise_error (ActiveRecord::RecordInvalid)
+    expect{ create(:admin, email: "5")}.to raise_error (ActiveRecord::RecordInvalid)
   end
 
   it "is invalid with invalid without @ in email" do
-    expect{ build(:admin, email: "email.com")}.to raise_error (ActiveRecord::RecordInvalid)
+    expect{ create(:admin, email: "email.com")}.to raise_error (ActiveRecord::RecordInvalid)
   end
 
   it "creates a record for the admin if there is no daily progress log" do
