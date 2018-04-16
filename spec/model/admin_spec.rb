@@ -26,7 +26,7 @@ RSpec.describe Admin, :type => :model do
     expect(dpl.admin).to eq(@admin)
   end
 
-  it "adds to a new record for the admin if there is a recent daily progress log" do
+  it "does not create a new record for the admin if there is a recent daily progress log" do
     @admin.record_progress(@lead)
     @admin.record_progress(@lead)
     dpl_count = DailyProgressLog.where(admin: @admin).count
@@ -37,7 +37,6 @@ RSpec.describe Admin, :type => :model do
     DailyProgressLog.create(admin: @admin, date: 7.days.ago, processed: 0, connects: 0, sets: 0)
     @admin.record_progress(@lead)
     dpl_count = DailyProgressLog.where(admin: @admin).count
-
     expect(dpl_count).to eq(2)
   end
 
