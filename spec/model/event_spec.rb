@@ -2,7 +2,7 @@ require 'rails_helper'
 
 RSpec.describe Event, :type => :model do
   before(:all) do
-    @event = create(:event)
+    @event = build(:event)
   end
 
   it "is valid with valid attributes" do

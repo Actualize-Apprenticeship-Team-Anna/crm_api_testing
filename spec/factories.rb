@@ -1,10 +1,14 @@
+# require 'database_cleaner'
+# DatabaseCleaner.strategy = :truncation
 FactoryBot.define do
 
   
   factory :admin do
     first_name "Joe"
     last_name "Johnson"
-    email "joeschmoe@gmail.com"
+    sequence :email do |n|
+      "email#{n}@email.com"
+    end
     password "djfalkdfjadklsfja"
   end
 
@@ -26,13 +30,13 @@ FactoryBot.define do
 
   factory :outreach do
     text "rgsrug"
-    sequence :lead_id 
+    lead
   end
 
   factory :setting do
-    sequence :admin_id 
+    admin 
     auto_text_content "I believe in a thing called love"
   end
 end
 
-
+# DatabaseCleaner.clean

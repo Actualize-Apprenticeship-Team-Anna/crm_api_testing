@@ -527,8 +527,40 @@
   },
   "RSpec": {
     "coverage": {
+      "/Users/krammdcclxxii/Actualize/crm_api_testing/spec/model/admin_spec.rb": [
+        1,
+        null,
+        1,
+        1,
+        4,
+        4,
+        null,
+        null,
+        1,
+        1,
+        null,
+        null,
+        1,
+        2,
+        null,
+        null,
+        1,
+        2,
+        null,
+        null,
+        1,
+        1,
+        1,
+        1,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
       "/Users/krammdcclxxii/Actualize/crm_api_testing/spec/rails_helper.rb": [
         null,
+        1,
         1,
         1,
         1,
@@ -1032,6 +1064,8 @@
         null
       ],
       "/Users/krammdcclxxii/Actualize/crm_api_testing/spec/factories.rb": [
+        null,
+        null,
         1,
         null,
         null,
@@ -1039,6 +1073,8 @@
         1,
         1,
         1,
+        5,
+        null,
         1,
         null,
         null,
@@ -1110,6 +1146,6 @@
         null
       ]
     },
-    "timestamp": 1522713928
+    "timestamp": 1523579316
   }
 }
