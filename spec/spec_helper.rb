@@ -21,7 +21,6 @@ SimpleCov.start do
   add_filter 'app'
   add_filter 'spec/model/lead_spec.rb'
   add_filter 'spec/model/outreach_spec.rb'
-  add_filter 'spec/model/setting_spec.rb'
   add_filter 'spec/support'
   
 

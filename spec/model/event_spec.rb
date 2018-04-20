@@ -13,10 +13,4 @@ RSpec.describe Event, :type => :model do
   it "has a name" do
     expect(@event.name).to eq("woke up")
   end
-
-  it "has a valid update timestamp when updated" do
-    @event.name = "hello"
-    @event.save
-    expect(@event.updated_at.strftime("%Y-%d-%m %H:%M:%S")).to eq(Time.now.strftime("%Y-%d-%m %H:%M:%S"))
-  end
 end
