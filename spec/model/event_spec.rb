@@ -16,6 +16,6 @@ RSpec.describe Event, :type => :model do
 
   it "has a valid update timestamp when updated" do
     @event.name = "hello"
-    expect(@event.save).to eq(true)
+    expect(@event.save)
   end
 end
