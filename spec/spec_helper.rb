@@ -19,7 +19,6 @@ require 'simplecov-console'
 SimpleCov.formatter = SimpleCov.formatter = SimpleCov::Formatter::Console
 SimpleCov.start do
   add_filter 'app'
-  add_filter 'spec/model/event_spec.rb'
   add_filter 'spec/model/lead_spec.rb'
   add_filter 'spec/model/outreach_spec.rb'
   add_filter 'spec/model/setting_spec.rb'
