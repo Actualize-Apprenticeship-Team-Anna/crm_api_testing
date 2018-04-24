@@ -31,7 +31,7 @@ FactoryBot.define do
   end
 
   factory :setting do
-    admin 
+    admin
     auto_text_content "I believe in a thing called love"
   end
 end
